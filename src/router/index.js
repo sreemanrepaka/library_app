@@ -12,6 +12,31 @@ const routes = [
     component: ()=> import('../views/Login.vue')
   },
   {
+    path: '/books',
+    name: 'books',
+    component: ()=> import('../views/Books.vue')
+  },
+  {
+    path: '/members',
+    name: 'members',
+    component: ()=> import('../views/Members.vue')
+  },
+  {
+    path: '/issues',
+    name: 'issues',
+    component: ()=> import('../views/Issues.vue')
+  },
+  {
+    path: '/employees',
+    name: 'issues',
+    component: ()=> import('../views/Employees.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: ()=> import('../views/Login.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     // route level code-splitting

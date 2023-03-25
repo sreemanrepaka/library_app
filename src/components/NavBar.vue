@@ -2,16 +2,13 @@
     <div>
         <v-app-bar
       app
-      
-     
-      
-    >
+      >
       <div class="d-flex align-center">
         <v-img
           alt="Vuetify Logo"
           class="shrink mr-2"
           contain
-          src="../../src/assets/librarian_image.jpg"
+          src="../assets/librarian_image.jpg"
           transition="scale-transition"
           width="40"
         />
@@ -23,7 +20,7 @@
       <v-spacer></v-spacer>
 
       <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        to="/login"
         target="_blank"
         text
       >
